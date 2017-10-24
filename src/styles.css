@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #444444;
+    color: white;
+}
+
+h1 {
+    color: #BBD8DC;
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-bottom: 2em;
+}
+
+div, table {
+    margin-top: 1em;
+}
+
+td {
+    padding: 5px;
+}
+
+input {
+    background-color: #444444;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px groove #336699;
+    height: 3em;
+    text-align: center;
+}
+
+.actionInput:hover {
+    background-color: #0d0e34;
+}
+
+label {
+    font-weight: bold;
+    color: #BBD8DC;
+}
+
+button {
+    color: #BBD8DC;
+    font-weight: bold;
+    border-style: ridge;
+    height: 3em;
+    min-width: 3em;
+}
+
+button:enabled {
+    background-color: #111467;
+}
+
+button:enabled:hover {
+    background-color: #0d0e34;
+}
+
+button:disabled {
+    background-color: #444444;
+    border-color: #888888;
+}
+
+.actionBtn {
+    background-color: #0d0e34;
+    min-width: 9em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.numberBtns {
+    margin: 30px;
+}
+
+.numberBtn {
+    margin: 8px;
+}
+
+.time {
+    width: 5em;
+}
+
+.cat {
+    width: 10em;
+}
+
+.date {
+    width: 11em;
+}
+
+.msgbox {
+    margin-top: 3em;
+    margin-left: 1em;
+    color: white;
+    background-color: grey;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 6px;
+    width: 6em;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+
+input[type = 'checkbox'] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+}
